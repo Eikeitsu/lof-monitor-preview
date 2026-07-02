@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <script>(function(){'use strict';document.addEventListener('contextmenu',function(e){e.preventDefault();});document.addEventListener('keydown',function(e){var k=e.key||'';if(k==='F12'||(e.ctrlKey&&e.shiftKey&&/^[IJC]$/i.test(k))||(e.ctrlKey&&/^[US]$/i.test(k))){e.preventDefault();e.stopPropagation();}});var t=160;setInterval(function(){if(window.outerWidth-window.innerWidth>t||window.outerHeight-window.innerHeight>t){debugger;}},1000);})();</script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="LOF 基金溢价监控 — 实时套利机会与交互式报告" />
+    <meta name="theme-color" content="#02040a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;600&family=Lora:ital,wght@0,600;0,700;1,600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>LOF Monitor · 溢价监控</title>
+    <script>
+      (function () {
+        var UI_KEY = "lof-monitor-ui-mode";
+        var PACK_KEY = "lof-monitor-theme-pack";
+        var SCHEME_KEY = "lof-monitor-color-scheme";
+        var FX_KEY = "lof-monitor-fx-tier";
+        var LEGACY_KEY = "lof-monitor-theme";
+        var themes = ["prism", "editorial", "cyber", "magazine", "miui", "md3"];
+        var fxPrefs = ["auto", "full", "balanced", "lite"];
+        function detectFx() {
+          if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return "lite";
+          var conn = navigator.connection;
+          if (conn && conn.saveData) return "lite";
+          var mobile = window.matchMedia("(max-width: 767px)").matches;
+          var mem = navigator.deviceMemory;
+          var cores = navigator.hardwareConcurrency;
+          if (mem != null && mem <= 2) return "lite";
+          if (mem != null && mem <= 4) return mobile ? "lite" : "balanced";
+          if (cores != null && cores <= 2) return "lite";
+          if (cores != null && cores <= 4) return mobile ? "balanced" : "balanced";
+          if (mobile) return "balanced";
+          return "balanced";
+        }
+        function resolveFx(pref) {
+          return pref === "auto" ? detectFx() : pref;
+        }
+        var fxPref = localStorage.getItem(FX_KEY);
+        if (fxPrefs.indexOf(fxPref) < 0) fxPref = "auto";
+        document.documentElement.setAttribute("data-fx", resolveFx(fxPref));
+        var legacy = localStorage.getItem(LEGACY_KEY);
+        var ui = localStorage.getItem(UI_KEY);
+        var pack = localStorage.getItem(PACK_KEY);
+        var scheme = localStorage.getItem(SCHEME_KEY);
+        if (ui !== "classic" && ui !== "modern") {
+          ui = legacy === "light" || legacy === "dark" ? "classic" : "modern";
+        }
+        if (ui === "classic") {
+          scheme = legacy === "light" ? "light" : scheme === "light" ? "light" : "dark";
+          document.documentElement.setAttribute("data-ui", "classic");
+          document.documentElement.setAttribute("data-theme", scheme);
+          return;
+        }
+        if (themes.indexOf(pack) < 0) {
+          if (legacy === "light") pack = "magazine";
+          else if (themes.indexOf(legacy) >= 0) pack = legacy;
+          else pack = "prism";
+        }
+        if (scheme !== "light" && scheme !== "dark") {
+          scheme = legacy === "light" ? "light" : legacy === "dark" ? "dark" : "dark";
+        }
+        document.documentElement.setAttribute("data-ui", "modern");
+        document.documentElement.setAttribute("data-theme", pack);
+        document.documentElement.setAttribute("data-scheme", scheme);
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-D9mNCpZS.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vue-vendor-C2BQTm_X.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BQldSfkO.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
