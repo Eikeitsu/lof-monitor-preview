@@ -1,77 +1,83 @@
 {
-  "updated": "2026-07-16 09:48",
+  "updated": "2026-07-16 10:36",
   "premiumMap": {
     "SZ160644": {
       "est": 1.842,
       "est_date": "2026-07-15",
       "premium": -2.57,
-      "ref_premium": -3.07
+      "ref_premium": -3.13
     },
-    "SZ164824": {
-      "est": 1.298,
-      "est_date": "2026-07-15",
-      "premium": -1.38,
-      "ref_premium": -1.37
-    },
-    "SZ161227": {
-      "est": 1.724,
+    "SZ168401": {
+      "est": 7.229,
       "est_date": "2026-07-16",
-      "premium": -1.28,
-      "ref_premium": null
-    },
-    "SZ162412": {
-      "est": 0.572,
-      "est_date": "2026-07-16",
-      "premium": -1.1,
-      "ref_premium": null
-    },
-    "SH501312": {
-      "est": 2.303,
-      "est_date": "2026-07-15",
-      "premium": -1.07,
-      "ref_premium": -1.07
-    },
-    "SZ160717": {
-      "est": 0.717,
-      "est_date": "2026-07-16",
-      "premium": -1.05,
+      "premium": -1.47,
       "ref_premium": null
     },
     "SZ160216": {
       "est": 0.617,
       "est_date": "2026-07-15",
-      "premium": -1.02,
-      "ref_premium": -1.02
+      "premium": -1.34,
+      "ref_premium": -1.34
+    },
+    "SZ164824": {
+      "est": 1.298,
+      "est_date": "2026-07-15",
+      "premium": -1.3,
+      "ref_premium": -1.3
+    },
+    "SZ162412": {
+      "est": 0.588,
+      "est_date": "2026-07-16",
+      "premium": -1.04,
+      "ref_premium": null
     },
     "SZ164701": {
       "est": 1.584,
       "est_date": "2026-07-15",
-      "premium": -0.88,
-      "ref_premium": -0.88
+      "premium": -1.01,
+      "ref_premium": -1.01
     },
     "SZ165513": {
       "est": 0.957,
       "est_date": "2026-07-15",
-      "premium": -0.87,
-      "ref_premium": -0.87
+      "premium": -0.98,
+      "ref_premium": -0.98
     },
-    "SZ160225": {
-      "est": 1.772,
+    "SZ161831": {
+      "est": 0.729,
+      "est_date": "2026-07-16",
+      "premium": -0.94,
+      "ref_premium": null
+    },
+    "SZ160717": {
+      "est": 0.72,
+      "est_date": "2026-07-16",
+      "premium": -0.93,
+      "ref_premium": null
+    },
+    "SZ160924": {
+      "est": 0.998,
+      "est_date": "2026-07-16",
+      "premium": -0.89,
+      "ref_premium": null
+    },
+    "SZ161124": {
+      "est": 0.906,
       "est_date": "2026-07-16",
       "premium": -0.83,
       "ref_premium": null
     },
-    "SZ161127": {
-      "est": 2.075,
+    "SZ161116": {
+      "est": 1.511,
       "est_date": "2026-07-15",
-      "premium": -0.81,
-      "ref_premium": -0.81
+      "premium": -0.8,
+      "ref_premium": -0.8
     },
-    "SZ161831": {
-      "est": 0.726,
-      "est_date": "2026-07-16",
+    "SZ160719": {
+      "est": 1.813,
+      "est_date": "2026-07-15",
       "premium": -0.78,
-      "ref_premium": null
+      "ref_premium": -0.78
     },
     "SZ162415": {
       "est": 2.879,
@@ -79,28 +85,46 @@
       "premium": -0.76,
       "ref_premium": -0.75
     },
-    "SZ161116": {
-      "est": 1.511,
+    "SH501312": {
+      "est": 2.303,
       "est_date": "2026-07-15",
-      "premium": -0.67,
-      "ref_premium": -0.66
+      "premium": -0.72,
+      "ref_premium": -0.72
     },
-    "SZ168401": {
-      "est": 7.21,
+    "SZ161127": {
+      "est": 2.075,
+      "est_date": "2026-07-15",
+      "premium": -0.72,
+      "ref_premium": -0.71
+    },
+    "SH501302": {
+      "est": 1.138,
       "est_date": "2026-07-16",
-      "premium": -0.63,
+      "premium": -0.7,
       "ref_premium": null
     },
-    "SZ160719": {
-      "est": 1.813,
-      "est_date": "2026-07-15",
-      "premium": -0.61,
-      "ref_premium": -0.61
+    "SZ160225": {
+      "est": 1.784,
+      "est_date": "2026-07-16",
+      "premium": -0.7,
+      "ref_premium": null
     },
-    "SZ161124": {
-      "est": 0.896,
+    "SZ164705": {
+      "est": 1.127,
       "est_date": "2026-07-16",
       "premium": -0.61,
+      "ref_premium": null
+    },
+    "SH502000": {
+      "est": 2.115,
+      "est_date": "2026-07-16",
+      "premium": -0.5,
+      "ref_premium": null
+    },
+    "SZ161726": {
+      "est": 0.418,
+      "est_date": "2026-07-16",
+      "premium": -0.47,
       "ref_premium": null
     },
     "SH501300": {
@@ -115,86 +139,86 @@
       "premium": -0.46,
       "ref_premium": -0.45
     },
-    "SZ161032": {
-      "est": 2.113,
+    "SZ160706": {
+      "est": 1.223,
       "est_date": "2026-07-16",
-      "premium": -0.45,
+      "premium": -0.38,
       "ref_premium": null
     },
-    "SZ160924": {
-      "est": 0.994,
+    "SZ161005": {
+      "est": 3.17,
       "est_date": "2026-07-16",
-      "premium": -0.42,
+      "premium": -0.27,
+      "ref_premium": null
+    },
+    "SZ161812": {
+      "est": 1.465,
+      "est_date": "2026-07-16",
+      "premium": -0.25,
       "ref_premium": null
     },
     "SZ160140": {
       "est": 1.463,
       "est_date": "2026-07-15",
-      "premium": -0.38,
-      "ref_premium": -0.38
+      "premium": -0.24,
+      "ref_premium": -0.24
     },
-    "SZ161005": {
-      "est": 3.161,
-      "est_date": "2026-07-16",
-      "premium": -0.3,
-      "ref_premium": null
-    },
-    "SZ163109": {
+    "SZ160639": {
       "est": 0.808,
       "est_date": "2026-07-16",
-      "premium": -0.25,
+      "premium": -0.23,
       "ref_premium": null
     },
-    "SZ164705": {
-      "est": 1.123,
-      "est_date": "2026-07-16",
-      "premium": -0.24,
-      "ref_premium": null
+    "SZ163208": {
+      "est": 1.268,
+      "est_date": "2026-07-15",
+      "premium": -0.21,
+      "ref_premium": -0.21
     },
-    "SZ163113": {
-      "est": 0.945,
-      "est_date": "2026-07-16",
-      "premium": -0.2,
-      "ref_premium": null
-    },
-    "SZ163407": {
-      "est": 2.663,
+    "SZ163109": {
+      "est": 0.813,
       "est_date": "2026-07-16",
       "premium": -0.19,
       "ref_premium": null
     },
-    "SZ161725": {
-      "est": 0.532,
+    "SZ163113": {
+      "est": 0.948,
       "est_date": "2026-07-16",
       "premium": -0.18,
       "ref_premium": null
     },
-    "SZ161726": {
-      "est": 0.405,
+    "SZ161227": {
+      "est": 1.733,
       "est_date": "2026-07-16",
-      "premium": -0.14,
+      "premium": -0.15,
       "ref_premium": null
     },
-    "SZ160706": {
-      "est": 1.218,
+    "SZ163407": {
+      "est": 2.674,
       "est_date": "2026-07-16",
-      "premium": -0.13,
+      "premium": -0.12,
       "ref_premium": null
     },
-    "SZ161812": {
-      "est": 1.458,
+    "SZ167301": {
+      "est": 1.028,
       "est_date": "2026-07-16",
-      "premium": -0.04,
+      "premium": -0.11,
       "ref_premium": null
     },
-    "SH502000": {
-      "est": 2.104,
+    "SZ161032": {
+      "est": 2.121,
+      "est_date": "2026-07-16",
+      "premium": -0.07,
+      "ref_premium": null
+    },
+    "SZ160632": {
+      "est": 0.261,
       "est_date": "2026-07-16",
       "premium": 0.0,
       "ref_premium": null
     },
-    "SZ167301": {
-      "est": 1.022,
+    "SZ161725": {
+      "est": 0.539,
       "est_date": "2026-07-16",
       "premium": 0.0,
       "ref_premium": null
@@ -205,110 +229,86 @@
       "premium": 0.04,
       "ref_premium": 0.04
     },
-    "SZ160632": {
-      "est": 0.258,
-      "est_date": "2026-07-16",
-      "premium": 0.0,
-      "ref_premium": null
-    },
-    "SH501302": {
-      "est": 1.134,
-      "est_date": "2026-07-16",
-      "premium": 0.1,
-      "ref_premium": null
-    },
-    "SZ163208": {
-      "est": 1.268,
-      "est_date": "2026-07-15",
-      "premium": 0.11,
-      "ref_premium": 0.11
-    },
     "SH501025": {
-      "est": 1.758,
+      "est": 1.751,
       "est_date": "2026-07-16",
-      "premium": 0.19,
-      "ref_premium": null
-    },
-    "SZ160639": {
-      "est": 0.804,
-      "est_date": "2026-07-16",
-      "premium": 0.24,
-      "ref_premium": null
-    },
-    "SH501043": {
-      "est": 1.628,
-      "est_date": "2026-07-16",
-      "premium": 0.34,
+      "premium": 0.07,
       "ref_premium": null
     },
     "SZ168204": {
-      "est": 1.957,
+      "est": 1.965,
       "est_date": "2026-07-16",
-      "premium": 0.4,
+      "premium": 0.12,
+      "ref_premium": null
+    },
+    "SZ162411": {
+      "est": 0.873,
+      "est_date": "2026-07-15",
+      "premium": 0.24,
+      "ref_premium": 0.24
+    },
+    "SH501043": {
+      "est": 1.635,
+      "est_date": "2026-07-16",
+      "premium": 0.28,
       "ref_premium": null
     },
     "SZ160416": {
       "est": 2.027,
       "est_date": "2026-07-15",
-      "premium": 0.68,
-      "ref_premium": 0.68
-    },
-    "SZ162411": {
-      "est": 0.873,
-      "est_date": "2026-07-15",
-      "premium": 0.81,
-      "ref_premium": 0.81
+      "premium": 0.33,
+      "ref_premium": 0.33
     },
     "SZ162719": {
       "est": 2.683,
       "est_date": "2026-07-15",
-      "premium": 1.11,
-      "ref_premium": 1.11
+      "premium": 0.73,
+      "ref_premium": 0.73
     },
     "SZ164906": {
       "est": 0.959,
       "est_date": "2026-07-15",
-      "premium": 1.43,
-      "ref_premium": -0.37
+      "premium": 2.26,
+      "ref_premium": -0.31
     },
     "SZ161125": {
       "est": 3.117,
       "est_date": "2026-07-15",
-      "premium": 2.31,
-      "ref_premium": 2.31
+      "premium": 2.86,
+      "ref_premium": 2.86
     },
     "SZ161128": {
       "est": 6.547,
       "est_date": "2026-07-15",
-      "premium": 2.85,
-      "ref_premium": 2.85
+      "premium": 3.1,
+      "ref_premium": 3.1
     },
     "SZ161130": {
       "est": 4.45,
       "est_date": "2026-07-15",
-      "premium": 3.16,
-      "ref_premium": 3.16
-    },
-    "SZ161226": {
-      "est": 1.596,
-      "est_date": "2026-07-16",
-      "premium": 13.67,
-      "ref_premium": 14.94
+      "premium": 3.56,
+      "ref_premium": 3.56
     },
     "SZ160723": {
       "est": 1.907,
       "est_date": "2026-07-15",
-      "premium": 14.15,
-      "ref_premium": 14.15
+      "premium": 11.74,
+      "ref_premium": 11.74
     },
-    "SZ161129": {
-      "est": 1.588,
-      "est_date": "2026-07-15",
-      "premium": 16.51,
-      "ref_premium": 16.52
+    "SZ161226": {
+      "est": 1.595,
+      "est_date": "2026-07-16",
+      "premium": 14.57,
+      "ref_premium": 15.91
     },
     "SH501018": {
       "est": 1.662,
+      "est_date": "2026-07-15",
+      "premium": 15.41,
+      "ref_premium": 15.41
+    },
+    "SZ161129": {
+      "est": 1.588,
       "est_date": "2026-07-15",
       "premium": 17.27,
       "ref_premium": 17.27
@@ -316,8 +316,8 @@
     "SH501225": {
       "est": 3.264,
       "est_date": "2026-07-15",
-      "premium": 28.2,
-      "ref_premium": 28.6
+      "premium": 24.61,
+      "ref_premium": 25.19
     }
   },
   "nameMap": {
